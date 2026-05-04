@@ -43,22 +43,3 @@ int main()
 
     return 0;
 }
-# 1. Inicia el repositorio local
-git init
-
-# 2. Crea un archivo README para explicar tu proyecto
-# (Esto es excelente para tu portafolio)
-echo "# Fundamentos de Programación en C" >> README.md
-
-# 3. Agrega todos tus archivos (.c y el README)
-git add .
-
-# 4. Crea tu primer "commit" (registro de cambios)
-git commit -m "Primeros pasos: Lógica, variables y operador ternario"
-
-# 5. Conecta tu PC con el repositorio que creaste en la web
-# Reemplaza 'TU_USUARIO' con tu nombre de usuario real
-git remote add origin https://github.com/TU_USUARIO/fundamentos-programacao-c.git
-
-# 6. Sube los archivos
-git push -u origin main
