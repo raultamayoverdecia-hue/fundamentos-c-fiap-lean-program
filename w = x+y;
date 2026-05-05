@@ -1,0 +1,10 @@
+int x = 0;
+int y = 10;
+int w;
+
+w = x+y;
+//W terá seu valor atribuido pelo resultado da expressão x + y
+
+x = y;
+
+//O valor de x sera 10
