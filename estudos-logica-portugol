@@ -1,0 +1,13 @@
+programa
+{
+    funcao inicio()
+    {
+        escreva("Iniciando o programa...\n")
+        dois()
+    }
+
+    funcao dois()
+    {
+        escreva("Agora estou dentro da função dois!")
+    }
+}
