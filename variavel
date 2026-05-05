@@ -1,0 +1,19 @@
+/*
+Ao declararmos uma variavel char chamada letra
+e passarmos a letra c como conteudo para ela o
+caractere c, que foi informado entre aspas simples
+estara reaproveitando uma constante ja declarada
+na criação da linguagem C.
+*/
+
+char letra = 'c';
+
+/*
+Ja quando utilizamos a definição nos estamos criando
+nossos preprios elementos para utilizarmos nos nossos
+codigos. Assim, podemos definir uma constante para
+armazenar o valor de PI como 3.1415 de forma a reaproveita-la
+ao longo do programa.
+*/
+
+#define PI 3.1415
