@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+char msg[9] = "Ola Mundo";
+
+int main()
+{
+    printf(msg);
+    return 0;
+}
