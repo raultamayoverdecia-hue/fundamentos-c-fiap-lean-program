@@ -1,0 +1,13 @@
+programa
+{
+    funcão início()
+    {
+        //Essta é a função início.
+	 //Voc pode chamar a função dois() dentro da função início, por exemplo.
+	 dois()
+    }
+    função dois()
+    {
+        //esta é a função dois
+    }
+}
