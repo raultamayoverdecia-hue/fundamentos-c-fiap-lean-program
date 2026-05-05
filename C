@@ -1,3 +1,17 @@
 char letra;
 int idade;
 float juros;
+char letra = 'a';
+int idade = 1;
+float juros = 0.28;
+#include <stdio.h>
+
+char msg_global[9] = "Ola Mundo";
+
+int main()
+{
+    char msg_local[10] = "Ola funcao";
+    printf(msg_global);
+    printf(msg_local);
+    return 0;
+}
